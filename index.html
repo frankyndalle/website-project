@@ -1,52 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Client Website</title>
-</head>
-<body>
-    <header>
+<html>
+    <head>
+        <title>Website</title>
+    </head>
+    <body>
         <h1>Welcome to Our Website</h1>
-    </header>
-    <main>
-        <p>This is the initial homepage content.</p>
-    </main>
-</body>
+
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <section class="hero">
+            <h2>Welcome to Our Professional Services</h2>
+            <p>We provide top-notch digital solutions tailored to help your business grow and succeed online.</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Clients Say</h2>
+            <blockquote>
+                <p>"Outstanding service and incredible attention to detail. Highly recommended!"</p>
+                <cite>- Jane Doe</cite>
+            </blockquote>
+        </section>
+
+        <footer>
+          <p>&copy; 2025 My Website</p>
+        </footer>
+    </body>
 </html>
-
-<nav>
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</nav>
-
-<footer>
-  <p>&copy; 2025 My Website</p>
-</footer>
-
-<section class="contact">
-    <h2>Contact Us</h2>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-        
-        <button type="submit">Submit</button>
-    </form>
-</section>
-
-<section class="testimonials">
-    <h2>What Our Clients Say</h2>
-    <blockquote>
-        <p>"Outstanding service and incredible attention to detail. Highly recommended!"</p>
-        <cite>- Jane Doe</cite>
-    </blockquote>
-</section>
